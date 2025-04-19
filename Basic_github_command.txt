@@ -6,3 +6,11 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ayushLearning-stack/Terraform.git  
 git push -u origin main
+
+
+Branching In git
+git branch feature 
+git branch
+git checkout feature 
+git branch -d feature 
+git merger feature 
