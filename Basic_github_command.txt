@@ -14,3 +14,6 @@ git branch
 git checkout feature 
 git branch -d feature 
 git merger feature 
+
+pull latest branch of main(Sync With Code)
+git pull origin main
