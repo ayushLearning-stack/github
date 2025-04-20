@@ -8,12 +8,18 @@ git remote add origin https://github.com/ayushLearning-stack/Terraform.git
 git push -u origin main
 
 
-Branching In git
+## Branching In git
 git branch feature 
 git branch
 git checkout feature 
 git branch -d feature 
 git merger feature 
 
-pull latest branch of main(Sync With Code)
+## pull latest branch of main(Sync With Code)
 git pull origin main
+
+## show the commit history and revert changes 
+git log
+git restore <filename> :- if not commit and not add.
+git reset <hashValue>
+or one commit back :- git reset head~1
