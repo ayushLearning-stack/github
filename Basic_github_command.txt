@@ -23,3 +23,16 @@ git log
 git restore <filename> :- if not commit and not add.
 git reset <hashValue>
 or one commit back :- git reset head~1
+
+
+## copy of the code from some another account 
+fork :- github UI
+github clone <URL>
+create branch :- git branch feature 
+git checkout feature 
+git push origin feature
+
+## up to date upstream branch 
+git remote add upstream <url> :- other project url 
+git pull upstream main
+
