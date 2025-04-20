@@ -36,3 +36,12 @@ git push origin feature
 git remote add upstream <url> :- other project url 
 git pull upstream main
 
+## Git stash :- keep the changes in some place so we can later retrieve it
+make change to file
+git stash :- only modified files 
+git stash save 'some message'
+git stash pop :- to retrieve changes 
+git stash list
+git stash clear
+but to keep track of file also then git stash -u
+
