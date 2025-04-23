@@ -45,3 +45,10 @@ git stash list
 git stash clear
 but to keep track of file also then git stash -u
 
+## Merge Conflit handiling make changes to same line in feature 1 branch and in feature 2 branch then git will ask which branch line need to keep 
+in github portal it will give error that :- branch has conflict and has been re-solved
+
+check diff between two branches 
+git diff main
+
+
